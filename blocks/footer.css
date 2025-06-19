@@ -1,0 +1,53 @@
+.footer{
+  width: 318px;
+  height: 28px;
+  padding: 50px;
+  color: #545454;
+  position: relative;
+  left: 130px;
+  font-family: Inter;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 100%;
+}
+
+@media screen and (max-width:800px){
+  .footer{
+    width: 100%;
+    margin: auto;
+  }
+
+  .footer__title{
+    width: 100%;
+    margin: auto;
+  }
+
+}
+
+@media screen and (max-width:480px) {
+  .footer {
+    width: 100%;
+    margin: auto;
+    position: static;
+  }
+
+    .footer__title {
+      width: 100%;
+      margin: auto;
+    }
+
+}
+
+@media screen and (max-width:320px){
+.footer{
+  width: 100%;
+  margin: auto;
+  position: static;
+}
+
+.footer__title{
+  width: 100%;
+  margin: auto;
+}
+
+}

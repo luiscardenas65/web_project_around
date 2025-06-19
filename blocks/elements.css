@@ -1,0 +1,47 @@
+.elements{
+  width: auto;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 38px;
+  justify-content: center;
+  padding-top: 20px;
+  margin: 20px;
+}
+
+.elements__element{
+  width: auto;
+  background-color: #ffffff;
+  border-radius: 10px;
+}
+
+.elements__element_group{
+  color: black;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.elements__element_grouptitle{
+  font-family: Inter;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 100%;
+}
+
+.elements__element_groupvector {
+  transition: all 0.25s ease-out;
+  width: 21px;
+  height: 19px;
+  border-width: 1.5px;
+  margin: 21px;
+}
+
+.elements__element_groupvector:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+.elements__element_groupvector:active {
+  transform: translateY(3px) scale(1.1);
+  opacity: 100%;
+  background-image: url(../images/Union.png);
+}
