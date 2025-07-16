@@ -14,6 +14,14 @@
     margin: 0 0 50px;
   }
 
+  .header__title{
+    font-family: "inter";
+  }
+
+  .header__paragraph{
+    font-family: "inter";
+  }
+
 }
 
 @media screen and (max-width:480px){

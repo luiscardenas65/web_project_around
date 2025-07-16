@@ -55,6 +55,7 @@ color: #000;
 }
 
 .popup__form-element{
+font-family: "inter";
 width:358px;
 height: 28px;
 border: none;
@@ -113,24 +114,35 @@ left: 75%;
 }
 
 @media screen and (max-width:320px){
-.popup__button_vector{
+.popup__button{
   position: fixed;
-  top:5%;
+  top:12%;
   left: 86%;
+}
+
+.popup__button-close{
+  width: 26px;
+  height: 26px;
 }
 
 .popup__container{
   position: fixed;
-  top: 10%;
-  left: 0%;
-  width: 100%;
+  top: 17%;
+  left: 3%;
+  width: 285px;
+  height: 363px;
 }
 
 .popup__form{
   width: 100%;
 }
 
+.popup__form-element{
+  width: 238px;
+}
+
 .popup__save-form{
-  width: 70%;
+  width: 80%;
+  margin: 40px auto 0px;
 }
 }
